@@ -1,0 +1,79 @@
+body{
+   background: #c3c3c3;
+}
+
+.conteiner{
+	width: 80%;
+	margin:30px auto;
+	overflow: hidden;
+}
+
+.container ul li a{
+	color: #5d5f5d;
+}
+
+.container ul li{
+	list-style: none;
+	float: left;
+	font: 10px/1.5 Verdana, Helvetica, Sans-sefif;
+	width: 16%;
+	margin: 2% 2% 40px 2%;
+}
+.container ul li a img{
+	max-width: 100%;
+}
+
+/* 100%-(5*4%)=80%*/
+/* 80%/5 = 16% */
+
+/* 100%-(4*4%)=84%*/
+/* 84%/4 = 21% */
+
+/* Media Queries*/
+
+/* 100%-(4*4%)=84%*/
+/* 84%/4 = 21% */
+@media only screen and (min-width : 941px){
+.container ul li: nth-child(5n+1){
+	clear: left;
+}
+}
+
+@media only screen and (min-width: 721px ) and (max-width : 941px)
+{
+.container ul li {
+	width: 21%;}
+
+.container ul li: nth-child(4n+1){
+	clear: left;
+}
+}
+/* 100%-(3*4%)=88%*/
+/* 88%/3 = 29.3333% */
+
+@media only screen and (min-width: 531px) and (max-width : 721px){
+	.container ul li {
+	width: 29.3333%;}
+
+.container ul li: nth-child(3n+1){
+	clear: left;
+}
+}
+/* 100%-(2*4%)=92%*/
+/* 92%/2 = 46% */
+@media only screen and (min-width: 321px) and (max-width : 531px){
+	.container ul li {
+	width: 46%;}
+
+.container ul li: nth-child(2n+1){
+	clear: left;
+}
+}
+/* 100%-(1*4%)=96%*/
+/* 96%/1 = 96% */
+@media only screen and (max-width: 321px){
+	.container ul li {
+	width: 96%;}	
+}
+
+

@@ -1,0 +1,19 @@
+body {
+	background: #c3c3c3;
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;
+}
+
+.container {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.wish {
+	margin-top: 50px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+input {
+	color: green;
+}

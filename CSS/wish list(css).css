@@ -1,0 +1,85 @@
+body {
+	background: #c3c3c3;
+}
+
+.container {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.imagetip span {
+    left: 116px;
+    position: absolute;
+    visibility: hidden;
+    /*width: 0%;*/
+    /*z-index: 9999;*/
+}
+
+span {
+  margin-left: 40%;
+  margin-top: -80px;
+}
+
+.imagetip:hover span {
+    visibility: visible;
+}
+
+.alignnone {
+	width: 500px;
+	height: auto;
+}
+
+.wishlist {
+	margin: 20px 20px 0 20px;
+	text-align: center;
+	width: 400px;
+}
+
+.wishlist:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.contant {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-top: 50px;
+  float: left;
+}
+
+.text {
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;	
+	text-align: center;
+	margin-left: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin-top: 50px;
+}
+
+a {
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: 2px 3px 5px;
+	font-size: 32px;
+  transition: 0.2s all;
+}
+
+footer {
+	float: right;
+	width: 100%;
+}
+
+img {
+	display: inline-block;
+}
+
+.footer {
+	margin-left: 39%;
+	margin-right: 39%;
+}
+
+
+
+
+
